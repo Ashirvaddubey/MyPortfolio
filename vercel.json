@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_EMAILJS_PUBLIC_KEY": "Mxip8AsFikcSo4PAl",
+    "NEXT_PUBLIC_EMAILJS_SERVICE_ID": "service_7lr520of",
+    "NEXT_PUBLIC_EMAILJS_TEMPLATE_ID": "template_ua06kfb"
+  }
+} 
