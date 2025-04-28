@@ -39,33 +39,33 @@ A modern, responsive portfolio website built with Next.js, Three.js, and EmailJS
 ### Installation
 
 1. Clone the repository
-\`\`\`bash
+```bash
 git clone https://github.com/Ashirvaddubey/MyPortfolio.git
 cd MyPortfolio
-\`\`\`
+```
 
 2. Install dependencies
-\`\`\`bash
+```bash
 pnpm install
-\`\`\`
+```
 
-3. Create a \`.env.local\` file in the root directory and add your EmailJS credentials:
-\`\`\`env
+3. Create a `.env.local` file in the root directory and add your EmailJS credentials:
+```env
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key
 NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
 NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
-\`\`\`
+```
 
 4. Start the development server
-\`\`\`bash
+```bash
 pnpm dev
-\`\`\`
+```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 3d-portfolio/
 ├── app/                  # Next.js app directory
 ├── components/          # React components
@@ -76,17 +76,17 @@ pnpm dev
 ├── styles/            # Global styles
 ├── lib/               # Utility functions
 └── ...
-\`\`\`
+```
 
 ## 📧 EmailJS Setup
 
 1. Sign up at [EmailJS](https://www.emailjs.com/)
 2. Create an Email Service
 3. Create an Email Template with variables:
-   - \`{{from_name}}\`
-   - \`{{from_email}}\`
-   - \`{{message}}\`
-   - \`{{to_email}}\`
+   - `{{from_name}}`
+   - `{{from_email}}`
+   - `{{message}}`
+   - `{{to_email}}`
 
 ## 🌐 Deployment
 
