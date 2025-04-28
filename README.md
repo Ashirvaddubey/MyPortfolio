@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with Next.js, Three.js, and EmailJS. Features a stunning 3D animated background, smooth transitions, and interactive elements.
 
-🌐 [Live Demo](https://3d-portfolio-4sepeun5u-ashirvaddubeys-projects.vercel.app)
+🌐 [Live Demo](https://3d-portfolio-36jazdeh6-ashirvaddubeys-projects.vercel.app)
 
 ## ✨ Features
 
