@@ -1,11 +1,9 @@
 "use client"
-
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { FileDown, Github, Linkedin, Mail, Phone } from "lucide-react"
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
-
 export default function AboutSection() {
   const handleDownloadCV = () => {
     // In a real implementation, this would point to your actual CV file
